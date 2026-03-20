@@ -1,10 +1,11 @@
-import easy.LengthOfLastWord;
+import easy.PlusOne;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        LengthOfLastWord solution = new LengthOfLastWord();
-
-        int result = solution.lengthOfLastWord("a ");
-        System.out.println(result);
+        PlusOne plusOne = new PlusOne();
+        int[] result = plusOne.plusOne(new int[]{9,9});
+        System.out.println(Arrays.toString(result));
     }
 }
