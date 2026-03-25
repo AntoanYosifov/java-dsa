@@ -1,11 +1,8 @@
-import easy.PlusOne;
-
-import java.util.Arrays;
+import easy.AddIntegerStrings;
 
 public class Main {
     public static void main(String[] args) {
-        PlusOne plusOne = new PlusOne();
-        int[] result = plusOne.plusOne(new int[]{9,9});
-        System.out.println(Arrays.toString(result));
+        AddIntegerStrings solution = new AddIntegerStrings();
+        System.out.println(solution.addIntegerStrings("1090", "9011"));
     }
 }
